@@ -125,3 +125,23 @@ li {
 .sales {
     background-color: #b0c926;
 }
+
+/* task status area */
+
+.task-done {
+    font-size: xx-small;
+    color: green;
+    padding: 4px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.task-undone {
+    font-size: xx-small;
+    color: red;
+    padding: 4px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+}
