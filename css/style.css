@@ -5,3 +5,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+body {
+    font-family: sans-serif;
+}
+
+/* header */
+
+.header-page {
+    margin: 20px;
+    width: 90%;
+    height: 20%;
+}
+
+.header-name {
+    vertical-align: text-bottom;
+    font-size: 40px;
+    font-weight: 900;
+}
