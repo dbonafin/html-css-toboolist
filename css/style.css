@@ -16,8 +16,7 @@ body {
 
 .header-page {
     margin: 20px;
-    width: 90%;
-    height: 20%;
+    width: 99%;
 }
 
 .header-name {
@@ -96,10 +95,15 @@ li {
 
 /* hashtags area */
 
-.hashtag-task {
+.hashtag {
+    line-height: 20px;
+    width: 60px;
+    height: 20px;
     border-radius: 10px;
-    padding: 4px 8px;
+    text-align: center;
     color: white;
+    display: inline-block;
+    font-size: 12px;
 }
 
 .editorial {
@@ -128,20 +132,22 @@ li {
 
 /* task status area */
 
-.task-done {
-    font-size: xx-small;
-    color: green;
-    padding: 4px;
-    background-color: white;
-    border: 1px solid green;
-    border-radius: 50%;
+.task {
+    font-weight: 700;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
 }
 
-.task-undone {
-    font-size: xx-small;
+.done {
+    color: green;
+    border: 1px solid green;
+}
+
+.undone {
     color: red;
-    padding: 4px;
-    background-color: white;
     border: 1px solid red;
-    border-radius: 50%;
 }
